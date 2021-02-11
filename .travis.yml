@@ -18,4 +18,4 @@ script:
   - docker build -t udagram-be-user .
   - docker tag udagram-be-user dgrafova/udagram-be-user:latest
   - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
-  - docker push dgrafova/udagram-be-user:udagram-be-user
+  - docker push dgrafova/udagram-be-user:latest
